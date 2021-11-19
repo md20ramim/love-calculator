@@ -83,3 +83,38 @@ header{
 #doId{
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .down{
+        font-size: 15px;
+    }
+    .down img{
+        width: 100px;
+    }
+    header{
+        font-size: 20px;
+    }
+    #mathH{
+        font-size: 20px;
+    }
+    #discription{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .down{
+        font-size: 10px;
+    }
+    .down img{
+        width: 50px;
+    }
+    header{
+        font-size: 15px;
+    }
+    #mathH{
+        font-size: 15px;
+    }
+    #discription{
+        font-size: 10px;
+    }
+}
